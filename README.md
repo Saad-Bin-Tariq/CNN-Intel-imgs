@@ -50,6 +50,8 @@ $ python ML_Assignment_3_340594_SaadBinTariq.ipynb
 ![image](https://github.com/Saad-Bin-Tariq/CNN-Intel-imgs/assets/87191427/7e811b37-cd5e-424b-8f8e-4d3096aa85d1)
 # Accuracy Graphs 
 ![image](https://github.com/Saad-Bin-Tariq/CNN-Intel-imgs/assets/87191427/2bd80b20-4def-4329-9ce7-22eed661feaf)
+# Predicted Output Classes
+![image](https://github.com/Saad-Bin-Tariq/CNN-Intel-imgs/assets/87191427/38dd1b01-fe6e-4fa4-947b-bce60b3fec28)
 
 Contributing
 Contributions are welcome! If you wish to contribute to this project:
