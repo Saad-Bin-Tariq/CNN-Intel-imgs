@@ -1,10 +1,10 @@
-#Intel Image Classification
+# Intel Image Classification
 This project is an image classification task using the Intel Image Classification dataset. The goal is to classify images into specific categories such as buildings, forests, glaciers, mountains, seas, and streets.
 
-#Overview
+# Overview
 The repository contains a deep learning model trained on the Intel Image Classification dataset. The model is built using a convolutional neural network (CNN) architecture to classify images into different categories.
 
-#Features
+# Features
 Utilizes a CNN architecture for image classification.
 Handles multi-class classification for various environmental scenes.
 Implements data preprocessing, model training, and evaluation.
@@ -32,10 +32,10 @@ $ python ML_Assignment_3_340594_SaadBinTariq.ipynb
 Contributing
 Contributions are welcome! If you wish to contribute to this project:
 
-#Fork the repository.
+# Fork the repository.
 Create a new branch (git checkout -b feature-branch).
 Make your changes and commit them (git commit -am 'Add feature').
 Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
-#License
+# License
 This project is licensed under the MIT License. For more details, see the LICENSE file.
