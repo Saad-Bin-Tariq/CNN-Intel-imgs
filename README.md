@@ -49,42 +49,37 @@ $ python ML_Assignment_3_340594_SaadBinTariq.ipynb
 # Model Architecture
 ![image](https://github.com/Saad-Bin-Tariq/CNN-Intel-imgs/assets/87191427/7e811b37-cd5e-424b-8f8e-4d3096aa85d1)
 # Pre-trained Model weights 
- Layer (type)                Output Shape              Param #   
-=================================================================
- conv2d (Conv2D)             (None, 148, 148, 200)     5600      
-                                                                 
- conv2d_1 (Conv2D)           (None, 146, 146, 180)     324180    
-                                                                 
- max_pooling2d (MaxPooling2  (None, 29, 29, 180)       0         
- D)                                                              
-                                                                 
- conv2d_2 (Conv2D)           (None, 27, 27, 180)       291780    
-                                                                 
- conv2d_3 (Conv2D)           (None, 25, 25, 140)       226940    
-                                                                 
- conv2d_4 (Conv2D)           (None, 23, 23, 100)       126100    
-                                                                 
- conv2d_5 (Conv2D)           (None, 21, 21, 50)        45050     
-                                                                 
- max_pooling2d_1 (MaxPoolin  (None, 4, 4, 50)          0         
- g2D)                                                            
-                                                                 
- flatten (Flatten)           (None, 800)               0         
-                                                                 
- dense (Dense)               (None, 180)               144180    
-                                                                 
- dense_1 (Dense)             (None, 100)               18100     
-                                                                 
- dense_2 (Dense)             (None, 50)                5050      
-                                                                 
- dropout (Dropout)           (None, 50)                0         
-                                                                 
- dense_3 (Dense)             (None, 6)                 306       
-                                                                 
-=================================================================
-Total params: 1187286 (4.53 MB)
-Trainable params: 1187286 (4.53 MB)
-Non-trainable params: 0 (0.00 Byte)
+Model Architecture:
+----------------------------------------
+Layer (type)                Output Shape  
+----------------------------------------
+conv2d_1 (Conv2D)           (None, 148, 148, 200) 
+conv2d_2 (Conv2D)           (None, 146, 146, 180) 
+max_pooling2d_1 (MaxPooling2 (None, 29, 29, 180)   
+conv2d_3 (Conv2D)           (None, 27, 27, 180)   
+conv2d_4 (Conv2D)           (None, 25, 25, 140)   
+conv2d_5 (Conv2D)           (None, 23, 23, 100)   
+conv2d_6 (Conv2D)           (None, 21, 21, 50)    
+max_pooling2d_2 (MaxPooling2 (None, 4, 4, 50)      
+flatten_1 (Flatten)          (None, 800)           
+dense_1 (Dense)              (None, 180)           
+dense_2 (Dense)              (None, 100)           
+dense_3 (Dense)              (None, 50)            
+dropout_1 (Dropout)          (None, 50)            
+dense_4 (Dense)              (None, 6)             
+----------------------------------------
+
+Weights for each layer:
+----------------------------------------
+conv2d_1: (3, 3, 3, 200)
+conv2d_2: (3, 3, 200, 180)
+...
+dense_1: (800, 180)
+dense_2: (180, 100)
+dense_3: (100, 50)
+dense_4: (50, 6)
+----------------------------------------
+
 
 These details provide an overview of the model architecture and the shapes of the weights for each layer. Replace the (None, ...) output shapes with the actual output shapes if they're known. This information helps users understand the structure of your model and the dimensions of weights associated with each layer.
 # Accuracy Graphs 
